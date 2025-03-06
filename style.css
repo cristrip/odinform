@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('Norse-Bold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+body{
+    background-color: rgb(54, 51, 51);
+}
+.main{
+    display: flex;
+    margin: auto;
+    width:70%;
+}
+.container1{
+    display: flex;
+    width: 40%;
+    height: 700px;   
+}
+.container_1{
+   background-image: url('main_image.jpg');
+   width: 100%;
+   height: 100%;
+   background-size: cover; 
+   position: relative;
+}
+.container_1_2{
+    display: flex;
+    background-color: rgb(80, 79, 78);
+    opacity: 0.5;
+    height: 100px;
+    position: relative;
+    top: 150px;
+    font-family: 'Myfont';
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.container_1_2_1{
+    display: flex;
+    justify-content: end;
+    width: 50%;  
+}
+.container_1_2_2{
+    display: flex;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+}
+.container2{
+    width: 60%;
+    background-color: white;
+}
+.container2_1{
+    padding:120px 45px 40px 35px;
+    /* top padding is 120px
+    right padding is 45px
+    bottom padding is 40px
+    left padding is 35px */
+    font-size: 17px;
+    font-weight: bold;
+}
+h3{
+    padding-left: 35px;
+}
+.form{
+    display: flex;
+    
+    font-size: 10px;
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding-left: 35px;
+    padding-right: 50px;
+}
+.form1_1{
+    display: flex;
+    justify-content: space-between;
+    gap:60px;
+}
+.form1_2{
+    display: flex;
+    justify-content: space-between;
+    gap:60px;
+}
+.form1_3{
+    display: flex;
+    justify-content: space-between;
+    gap:60px;
+}
+.form1_1_1{
+    display: flex;
+    flex-direction: column;
+}
+.form1_1_2{
+    display: flex;
+    flex-direction: column; 
+}
+.form2_1_1{
+    display: flex;
+    flex-direction: column;  
+}
+.form2_1_2{
+    display: flex;
+    flex-direction: column;  
+}
+.form3_1_1{
+    display: flex;
+    flex-direction: column;  
+}
+.form3_1_2{
+    display: flex;
+    flex-direction: column;  
+}
+#but{
+    background-color:#596D48;
+    border-radius: 5px;
+    padding:10px 30px 10px 30px;
+    /* top padding is 10px
+    right padding is 30px
+    bottom padding is 10px
+    left padding is 30px */
+    color: white;
+    font-weight: bold;
+}
+#but:hover{
+    cursor: pointer;
+    color: #596D48;
+    background-color: aliceblue;
+}
+input{
+    border-color: #E5E7EB;
+}
+input:focus{
+    border-color: blue;
+}
+.form1_3 input:invalid{
+    border-color: red;
+}
+.form a{
+    font-size: 15px;
+    font-weight: bold;
+}
+hr{
+height:2px;
+border-width:0;
+color:gray;
+background-color:gray; 
+}
+.div_but{
+    display: flex;
+    gap: 20px;
+    padding-left: 35px;
+}
